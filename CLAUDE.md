@@ -30,6 +30,5 @@ through any GitHub step one tap at a time. Never use em dashes in anything writt
 ## Every change
 
 1. Edit the files.
-2. Make sure every inline script still parses (copy the check from another of Eli's repos or
-   run `node --check` on the extracted script).
+2. `python3 tools/check.py` must say OK (every script in the pages still parses).
 3. Commit with a plain message and push to `main`. Tell Eli what changed and what to try.
